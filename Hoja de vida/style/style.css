@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabecera */
+.header {
+    text-align: center;
+    background-color: #dde1e7;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name {
+    margin: 10px 0 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Secciones */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* Experiencia y Educación */
+.projects, .education p {
+    margin-bottom: 15px;
+}
+
+.projects h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.projects p {
+    font-style: italic;
+    color: #555;
+}
+
+/* Contacto */
+.contact p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.github :visited{
+    color: #333;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
