@@ -36,6 +36,7 @@ function createRandomNumber(){
 function checkNumber(){
     if(document.getElementById("btn").innerHTML == "Reset"){
         location.reload();
+        return;
     }
 
     var inputNumber = document.getElementById("number").value;
