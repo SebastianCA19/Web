@@ -44,14 +44,7 @@ function checkNumber(){
     if(inputNumber != "" && !isNaN(parseInt(inputNumber))){
         
         attempts++;
-
-        if(attempts == maxAttempts){
-            comment.innerHTML = "Has perdido, el número era: " + randomNumber;
-            changeButton();
-            playDamageSound();
-            return;
-        }
-
+        
         if(inputNumber > randomNumber){
             comment.innerHTML = "El número es menor que "+ inputNumber;
             removeHeart();
@@ -69,6 +62,12 @@ function checkNumber(){
             return;
         }
 
+        if(attempts == maxAttempts){
+            comment.innerHTML = "Has perdido, el número era: " + randomNumber;
+            changeButton();
+            playDamageSound();
+            return;
+        }
     }else{
         comment.innerHTML = "Digita un número"
     }
